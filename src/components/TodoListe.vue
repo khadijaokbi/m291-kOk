@@ -22,6 +22,7 @@ return {
     ]
 }
 let neuId = this.zielListe[this.zielListe.length-1].id+1
+console.log(neuId);
 }
 }
 </script>
