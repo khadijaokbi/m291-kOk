@@ -3,7 +3,7 @@
 <button @click="neuZiel">Neu</button>
 <h2>{{ msg }}</h2>
 <p v-for="ziel in zielListe" :key="ziel.key">
-<input type="radio" name="zielSelect" v-bind:value="ziel.id" v-model=zielSelect> 
+<input type="radio" name="zielSelect" v-bind:value="ziel.id" v-model="zielSelect">{{ ziel.inhalt}} 
 </p>
 <button @click="deleteZiel">Delete</button>
 </template>
