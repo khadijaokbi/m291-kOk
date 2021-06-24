@@ -18,7 +18,10 @@ return {
     zielListe: [
         {id:1, inhalt: 'CSS Animationen lernen'},
         {id:2, inhalt: 'Vue lernen'},
-    ],
-    let neuId = this.zielListe[thiszielListe.length-1].id+1
+
+    ]
+}
+let neuId = this.zielListe[this.zielListe.length-1].id+1
+}
 }
 </script>
